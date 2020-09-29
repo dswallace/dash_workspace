@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Dash deployment checks
+venv
+*.pyc
+.DS_Store
+.env
