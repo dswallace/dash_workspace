@@ -23,6 +23,8 @@ def percent_in_borehole(x_pts, y_pts, borehole_radius):
 
 app = dash.Dash(__name__)
 
+server = app.server
+
 tool_diameter = 3.5
 f1 = 10
 f4 = 15
